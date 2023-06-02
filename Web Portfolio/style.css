@@ -1,0 +1,200 @@
+html{
+    background-color: #ffeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-inline-end: 50px;
+}
+
+.nav-link{
+    padding: 10px;
+}
+
+
+/* About */
+
+.about{
+   
+    height: 90vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-container{
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px 150px;
+}
+
+.profile-picture img{
+   border-radius: 10% 40%;
+   margin: 1vw;
+}
+
+
+/* Experience */
+
+.experience-section{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.experience-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fdfdfd;
+}
+
+.experience-container{
+    display: flex;
+}
+
+.experience{
+    padding: 30px;
+    background-color: #fdfdfd;
+}
+
+/* Project */
+
+.projects{
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    background-color: #fdfdfd;
+    padding: 50px;
+
+
+}
+
+.projects-header{
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+
+
+/* Contact Card */
+
+.contact-card-container{
+    margin: 20px;
+    margin-block-end: 30px;
+    display: flex;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(45deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+
+}
+.socmed-logo{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around;
+    width: 50%;
+    align-self: center;
+}
+
+.contact-form{
+    padding: 20px;
+    flex: 2;
+    background-color: #fdfdfd;
+}
+
+.contact-form input{
+    height: 1.5rem;
+}
+.contact-form label{
+    padding: 6px 0px 6px;
+}
+
+.contact-info h3, p{
+    padding:10px;
+}
+
+.contact-deets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.messanger-info{
+    display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+
+
+.messanger-info-div{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.optional{
+    color: gray;
+}
+
+.button{
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    width: 100px;
+    height: 4vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(45deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
